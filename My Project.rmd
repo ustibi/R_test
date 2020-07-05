@@ -4,6 +4,7 @@ author: "Li"
 date: "2020/7/5"
 output: html_document
 
+
 ---
 
 ```{r setup, include=FALSE}
@@ -36,3 +37,6 @@ $$
 f(x)=\frac{e^x}{\log x}
 $$
 
+## History
+
+- **2020.7.5:** push&stage
