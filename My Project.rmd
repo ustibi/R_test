@@ -2,7 +2,7 @@
 title: "My Project"
 author: "Li"
 date: "2020/7/5"
-output: beamer_presentation
+output: html_document
 
 ---
 
@@ -38,4 +38,15 @@ $$
 
 ## History
 
-- **2020.7.5:** push&stage
+- **2020.7.5:** stage -> commit -> push
+- **2020.7.6:** R的一些操作：
+
+```{r}
+# 求余数
+x <- 7 %% 5
+# 求商
+y <- 7 %/% 5
+x
+y
+```
+
