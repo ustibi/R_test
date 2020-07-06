@@ -2,8 +2,7 @@
 title: "My Project"
 author: "Li"
 date: "2020/7/5"
-output: html_document
-
+output: beamer_presentation
 
 ---
 
@@ -31,7 +30,7 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-## 测试中文
+## Chinese is not supported in beamer
 
 $$
 f(x)=\frac{e^x}{\log x}
