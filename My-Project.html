@@ -408,6 +408,21 @@ x</code></pre>
 <pre><code>## [1] 2</code></pre>
 <pre class="r"><code>y</code></pre>
 <pre><code>## [1] 1</code></pre>
+<ul>
+<li>NA: Not Available; NaN: Not a Number</li>
+</ul>
+<pre class="r"><code>is.nan(&#39;c&#39;)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.nan(7/0)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.nan(0/0)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>is.na(&#39;c&#39;)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.na(7/0)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.na(0/0)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 </div>
 
 

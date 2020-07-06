@@ -50,3 +50,14 @@ y <- 7 %/% 5
 x
 y
 ```
+  - NA: Not Available; NaN: Not a Number
+```{r}
+is.nan('c')
+is.nan(7/0)
+is.nan(0/0)
+is.na('c')
+is.na(7/0)
+is.na(0/0)
+```
+    
+    
